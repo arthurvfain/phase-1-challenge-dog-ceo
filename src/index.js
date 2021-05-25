@@ -40,6 +40,7 @@ function addBreeds(breeds) {
             appendBreedMethodToArray(breed)
         }
     }
+    completeBreedArray.sort()
     appendBreedtoDomFromArray(completeBreedArray)
     filterLetter()
 }
